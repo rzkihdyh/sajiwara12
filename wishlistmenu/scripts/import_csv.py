@@ -1,7 +1,6 @@
 import os
 import csv
 from wishlistmenu.models import Menu, Restaurant
-from katalog.models import Restonya  # Menggunakan model Restonya
 
 def import_menu_resto():
     current_dir = os.path.dirname(__file__)
